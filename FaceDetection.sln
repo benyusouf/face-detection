@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacesApi", "FacesApi\FacesA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacesApiTest", "FacesApiTest\FacesApiTest.csproj", "{FC4E3E70-D4C2-4FB9-BDC1-FC653C479FC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessagingCore", "MessagingCore\MessagingCore.csproj", "{50150A10-5128-40B7-B96C-2AB6414DC86E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{FC4E3E70-D4C2-4FB9-BDC1-FC653C479FC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC4E3E70-D4C2-4FB9-BDC1-FC653C479FC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC4E3E70-D4C2-4FB9-BDC1-FC653C479FC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50150A10-5128-40B7-B96C-2AB6414DC86E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50150A10-5128-40B7-B96C-2AB6414DC86E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50150A10-5128-40B7-B96C-2AB6414DC86E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50150A10-5128-40B7-B96C-2AB6414DC86E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -33,5 +39,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AB39610E-8054-42CA-9479-FF42B191CD55} = {5CDF8258-3E33-4F17-BD21-0B590D5CD837}
 		{FC4E3E70-D4C2-4FB9-BDC1-FC653C479FC9} = {5CDF8258-3E33-4F17-BD21-0B590D5CD837}
+		{50150A10-5128-40B7-B96C-2AB6414DC86E} = {5CDF8258-3E33-4F17-BD21-0B590D5CD837}
 	EndGlobalSection
 EndGlobal
