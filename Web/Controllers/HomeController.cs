@@ -20,6 +20,7 @@ namespace Web.Controllers
 
         public IActionResult Index()
         {
+            _logger.LogError("Just  error");
             return View();
         }
 
