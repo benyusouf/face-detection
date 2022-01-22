@@ -1,5 +1,6 @@
 ﻿namespace MessagingCore.Constants
 {
+    //
     public class MessagingConstants
     {
         public const string RabbitMqUri = "rabbitmq://rabbitmq:5672";
